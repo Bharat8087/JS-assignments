@@ -1,6 +1,8 @@
 let a = 5;
 let b = 7;
 let c = a + b;
+let d = Math.floor(a / b);
+console.log(d);
 // if we use "," then space will be added; if we use "+" then there will be no space
 //example of multiple arguments of console.log
 console.log("Addition of", a + " and " + b, "is:", c);
